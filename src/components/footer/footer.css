@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.footer__container{
+    width: var(--container-width-lg);
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.footer__social{
+    display: flex;
+    gap: 1.5rem;
+   
+}
+
+.footer__social a {
+    background: white;
+    color: black;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.footer__social a:hover{
+    background: black;
+}
+

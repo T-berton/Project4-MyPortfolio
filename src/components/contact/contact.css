@@ -1,0 +1,154 @@
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.contact__title{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+
+.header__subtitle{
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--color-secondary-variant);
+}
+
+.header__title{
+    filter: drop-shadow(5px 0px 15px #0E86D4);
+    font-size: 2.5rem;
+    color: var(--color-secondary);    
+}
+
+.contact__grid{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    width: 100%;
+}
+
+.card__grid,
+.form__grid{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.card__grid{
+    padding-top: 1rem;
+}
+
+.form__grid{
+    row-gap: 1rem;
+}
+
+.card__content{
+    opacity: 0.8;
+    display: flex;
+    justify-content: left;
+    padding-left: 1rem;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-primary);
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.card__text{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.line{
+    height: 60%;
+    width: 1.4px;
+    background-color: var(--color-secondary);
+    display: block;
+}
+
+.form__name,
+.form__subject,
+.form__message{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input{
+    opacity: 0.8;
+    color: black;
+    background-color: var(--color-primary);
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.form__label{
+    font-size: 0.8rem;
+
+}
+
+.form__input__message{
+    opacity: 0.8;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 0.2rem;
+    height: 10rem;   
+    color: black;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+
+.form__btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    filter: drop-shadow(5px 0px 10px #0E86D4);
+    color: white;
+    border-color: transparent;
+    font-size: 12pt;
+    cursor: pointer;
+    background-color: var(--color-primary);
+}
+
+.form__btn:hover{
+    background-color: var(--color-secondary-variant);
+    color: white;
+}
+
+@media (max-width:770px) {
+    .contact__container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width:426px) {
+    .contact__grid{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+    }
+    .line{
+        height: 2px;
+        width: 60%;
+    }
+    .line__container{
+        display: flex;
+        justify-content: center;
+    }
+}

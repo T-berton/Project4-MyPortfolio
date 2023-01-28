@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+header{
+    padding-top: 5rem;
+}
+.header__h1,.header__h2{
+    font-family: 'Iceland', cursive;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.header__h2 {
+    padding-bottom: 3em;
+    font-size: x-large;
+    
+}
+
+
+.header__btn{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.header__img{
+    max-width: 100%;
+}
+
+@media (max-width:426px) {
+    .header__btn{
+        margin-bottom: 5rem;   
+
+    }
+    .header__img{
+        max-width: 100%;
+    }    
+    
+}

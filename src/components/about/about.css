@@ -1,0 +1,171 @@
+.about__container{
+    margin : 5rem 7rem;
+    display: flex;
+    column-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-title{
+    margin-bottom: 2rem;
+}
+
+
+.about-p {
+    max-width: 70%;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+}
+
+.about__image{
+    width: 350px;
+    position: relative;
+    top: 1.5rem;
+}
+
+.about-hobbies {
+    display: flex;
+}
+
+
+
+.about-skills{
+    display: flex;
+}
+
+.skills__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.skills__header{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__icon{
+    font-size: 25px;
+    color: var(--color-secondary);
+    margin-right: 1rem;
+}
+
+.skills__icon[id=backend]{
+    color: var(--color-secondary-variant);
+}
+
+.skills__arrow {
+    margin-top: 0.5rem;
+    font-size: 25px;
+    color: var(--color-secondary);
+
+}
+
+.skills__arrow[id=backend]{
+    color: var(--color-secondary-variant);
+}
+
+.skills__grid{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    content-visibility:hidden;
+    opacity:0;
+    transition:content-visibility 0.6s linear,opacity 1s linear;
+}
+
+
+
+.skills__grid[data-visible=true]{
+    content-visibility:visible;
+    opacity:1;
+}
+
+.skills__data{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    width: 100%;
+}
+
+.skills__name{
+    font-family: math;
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: 0.25rem;
+}
+
+.skills__bar{
+    background-color: var(--color-primary);
+
+}
+
+.skills__html{
+    width: 90%;
+}
+.skills__css{
+    width: 85%;
+}
+.skills__javascript{
+    width: 85%;
+}
+.skills__react {
+    width: 85%;
+}
+.skills__ruby{
+    width: 85%;
+}
+.skills__nodejs{
+    width: 60%;
+}
+.skills__php{
+    width: 50%;
+}
+.skills__python{
+    width: 50%;
+}
+
+
+@media (max-width:770px) {
+    .about__container{
+        flex-direction: column;
+        margin: 0rem 1.5rem;
+        margin-top: 3rem;
+    }
+    .about-p{
+        max-width: unset;
+    }
+    .about__image{
+        width: 20rem;
+        top: unset;
+        bottom: 2rem;
+    }
+
+    .about-skills{    
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3rem;
+    }   
+}
+
+@media (max-width:430px) {
+
+
+
+    
+}

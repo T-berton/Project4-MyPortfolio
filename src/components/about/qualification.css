@@ -1,0 +1,86 @@
+.qualification__title{
+    display: flex;
+    justify-content: center;
+}
+
+.qualification__header{
+    display: flex;
+    column-gap: 5rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.education__title,.experience__title{
+    display: flex;
+    column-gap:1rem;
+    align-items: center;
+}
+
+.qualification__content{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 2rem;
+    row-gap: 0.5rem;
+}
+
+.qualification__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 2px solid;
+    border-color: var(--color-primary);
+    background-color: var(--color-secondary-variant);
+    border-radius: 50%;
+}
+
+.qualification__line{
+    display: block;
+    width: 1px;
+    height: 98%;
+    background-color: var(--color-primary);
+    translate: 6px -6px;
+}
+
+.education__icon {
+    font-size: 25px;
+    color: var(--color-secondary);
+}
+
+.experience__icon{
+    font-size: 25px;
+    color: var(--color-secondary-variant);
+}
+
+.qualification__calendar{
+    font-size: 15px;
+    color: var(--color-secondary);
+}
+
+
+.qualification__calendar[id=exp]{
+    font-size: 15px;
+    color: var(--color-secondary-variant);
+}
+
+.education__title{
+    color: var(--color-secondary);
+}
+
+.experience__title{
+    color: var(--color-secondary-variant);
+ 
+}
+
+
+.experience__description,
+.education__description{
+    font-weight: 100;
+}
+
+.experience__date,
+.education__date{
+    margin-top: 0.3rem;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
