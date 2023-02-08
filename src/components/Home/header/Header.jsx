@@ -17,7 +17,9 @@ function Header() {
                         </div>
                         <div className="header__btn">
                             <Link to={`/about`} className="btn-secondary flex align-items-center justify-center"> More About me </Link>
-                            <Link to={`/#project__sections`} className="btn-primary flex align-items-center justify-center"> My Projects </Link>
+                            <a className="btn-primary flex align-items-center justify-center" href="https://github.com/T-berton?tab=repositories">
+                                My Projects
+                            </a>
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12">

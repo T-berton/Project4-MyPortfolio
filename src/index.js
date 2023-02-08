@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Home from './components/Home/Home'
-import Project_ex from './components/Home/project/Project_ex'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Portfolio from './components/portfolio/Portfolio'
