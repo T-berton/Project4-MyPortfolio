@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import Home from './components/Home/Home'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
-import Portfolio from './components/portfolio/Portfolio'
 import './index.css'
 import {
     createBrowserRouter,
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
     {
         path: "/about",
         element: <About/>,
-    },
-    {
-        path: "/project",
-        element: <Portfolio/>
     },
     {
         path: "/contact",
